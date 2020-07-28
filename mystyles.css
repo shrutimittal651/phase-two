@@ -1,0 +1,74 @@
+#mainDiv {
+	width: 60%;
+	margin: auto;
+	border: 1px solid black;
+	height: 100%;
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#innerDiv {
+	position: relative;
+	width: 100%;
+}
+
+#innerDiv input{
+	width: 50%;
+	height: 30px;
+}
+#innerDiv button{
+	height: 30px;
+	width: 30px;
+	background: none;
+}
+
+ul li {
+	height: 40px;
+	background: grey;
+}
+
+ul li:hover {
+	height: 40px;
+	background: lightgrey;
+}
+ul li input {
+	float: left;
+	border-radius: 0px;
+	border: none;
+	zoom: 3.1;
+	display:inline;
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+	margin-left: -30px;
+	border-bottom: 1px solid;
+}
+ul li p {
+	display: inline;
+	font-size: 35px;
+	padding-top: 10px;
+}
+ul li button {
+	float: right;
+	height: 100%;
+	width: 40px;
+	background: None;
+	border: None;	
+	font-size: 35px;	
+}
+
+ul li button:hover {
+	float: right;
+	height: 100%;
+	width: 40px;
+	background: darkgrey;
+	border: None;
+	font-size: 35px;
+}
+
+.completeTask {
+	text-decoration: line-through;
+}
